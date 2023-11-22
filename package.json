@@ -6,19 +6,24 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "prettier": "prettier --write .",
+    "preppush": "npm run prettier && npm run lint"
   },
   "dependencies": {
+    "@types/styled-components": "^5.1.32",
+    "next": "14.0.3",
+    "prettier": "^3.1.0",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.0.3"
+    "styled-components": "^6.1.1"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "eslint": "^8",
-    "eslint-config-next": "14.0.3"
+    "eslint-config-next": "14.0.3",
+    "typescript": "^5"
   }
 }
