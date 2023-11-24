@@ -13,13 +13,8 @@ export const breakpoints = {
 };
 
 export const colors = {
-  backgroundGrey: '#cccccc',
-  darkBlue: '#1a1951',
-  darkGreen: '#053b21',
-  goldBorder: '#f7da7a',
-  gold: '#f2c12a',
-  tan: '#fae6a9',
-  white: '#ffffff',
+  backgroundGrey: '#dddddd',
+  turquoise: '#31adab'
 };
 
 export const GlobalStyle = createGlobalStyle`
@@ -29,7 +24,6 @@ export const GlobalStyle = createGlobalStyle`
     width: 100%;
     height: 100%;
     background-color: ${colors.backgroundGrey};
-    /* color: ${colors.darkGreen}; */
   }
   html {
     scroll-behavior: smooth;
@@ -47,7 +41,7 @@ export const GlobalStyle = createGlobalStyle`
     color: inherit;
     text-decoration: none;
   }
-  a:hover {
-      text-decoration: underline;
-  }
+  /* a:hover {
+    text-decoration: underline;
+  } */
 `;

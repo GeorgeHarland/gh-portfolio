@@ -1,8 +1,7 @@
-import Image from 'next/image'
-import styles from './page.module.css'
+import HomeTitle from "@/components/homeTitle";
 
 export default function Home() {
   return (
-    <div>abc</div>
+    <HomeTitle />
   )
 }
