@@ -5,5 +5,5 @@ export const Main = styled.main`
   flex-direction: column;
   /* align-items: center; */
   padding: 0rem 1rem;
-  min-height: 100vh;
+  min-height: 80vh;
 `;

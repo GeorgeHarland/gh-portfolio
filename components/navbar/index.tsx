@@ -3,7 +3,7 @@ import * as S from './styled'
 import Link from 'next/link';
 import { breakpoints } from '@/styles';
 
-const WebsiteHeader = () => {
+const NavBar = () => {
   const { width } = useWindowSize();
 
   if (width >= breakpoints.tablet) {
@@ -26,4 +26,4 @@ const WebsiteHeader = () => {
   }
 }
 
-export default WebsiteHeader;
+export default NavBar;

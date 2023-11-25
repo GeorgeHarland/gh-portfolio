@@ -1,11 +1,11 @@
 'use client';
 
-import WebsiteHeader from '@/components/websiteHeader';
+import NavBar from '@/components/navbar';
 import * as S from './styled';
 
 const DefaultTemplate = ({ children }: { children: React.ReactNode }) => (
   <div>
-    <WebsiteHeader />
+    <NavBar />
     <S.Main>{children}</S.Main>
   </div>
 );

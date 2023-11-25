@@ -14,6 +14,7 @@ export const breakpoints = {
 
 export const colors = {
   backgroundGrey: '#dddddd',
+  backgroundTurquoise: '#53cfcd',
   turquoiseBanners: '#31adab',
   primaryText: '#000000'
 };
@@ -23,8 +24,14 @@ export const GlobalStyle = createGlobalStyle`
     margin: 0 auto;
     padding: 0;
     width: 100%;
-    height: 100%;
+    /* background: linear-gradient(
+      55deg, 
+      ${colors.backgroundTurquoise}, 
+      ${colors.backgroundGrey}, 
+      ${colors.backgroundTurquoise}
+    ); */
     background-color: ${colors.backgroundGrey};
+    height: 100%;
     color: ${colors.primaryText};
   }
   html {
