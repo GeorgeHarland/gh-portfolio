@@ -3,13 +3,13 @@
 import { createGlobalStyle } from 'styled-components';
 
 export const breakpoints = {
-  siteWidth: '1900px',
-  verylarge: '1650px',
-  large: '1400px',
-  medium: '1150px',
-  bigtablet: '900px',
-  tablet: '768px',
-  mobile: '480px',
+  siteWidth: 1900,
+  verylarge: 1650,
+  large: 1400,
+  medium: 1150,
+  bigtablet: 900,
+  tablet: 768,
+  mobile: 480,
 };
 
 export const colors = {
