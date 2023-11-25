@@ -14,7 +14,8 @@ export const breakpoints = {
 
 export const colors = {
   backgroundGrey: '#dddddd',
-  turquoise: '#31adab'
+  turquoiseBanners: '#31adab',
+  primaryText: '#000000'
 };
 
 export const GlobalStyle = createGlobalStyle`
@@ -24,6 +25,7 @@ export const GlobalStyle = createGlobalStyle`
     width: 100%;
     height: 100%;
     background-color: ${colors.backgroundGrey};
+    color: ${colors.primaryText};
   }
   html {
     scroll-behavior: smooth;

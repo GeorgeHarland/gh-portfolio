@@ -7,9 +7,10 @@ const HomeTitle = () => {
   const { width } = useWindowSize();
 
   return (
-  <S.Wrapper screenSize={width}>
-    George H, full-stack web developer and software engineer
-  </S.Wrapper>)
+    <S.Wrapper screenSize={width}>
+      George H, full-stack software engineer based in Brighton, UK.
+    </S.Wrapper>
+  )
 }
 
 export default HomeTitle;
