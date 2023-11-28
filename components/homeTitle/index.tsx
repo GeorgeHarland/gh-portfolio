@@ -8,7 +8,7 @@ const HomeTitle = () => {
 
   return (
     <S.Wrapper screenSize={width}>
-      George H, full-stack software engineer based in Brighton, UK.
+      George H - Full-stack software engineer based in Brighton, UK
     </S.Wrapper>
   )
 }
