@@ -33,6 +33,7 @@ export const ContentCard = styled.div`
   height: 4rem;
   display: flex;
   overflow: hidden;
+  font-size: 14px;
 
   &:hover {
     transform: scale(1.03);
@@ -42,10 +43,4 @@ export const ContentCard = styled.div`
 export const CardImage = styled.img`
   width: 100%;
   height: auto;
-`
-
-export const CardText = styled.div`
-  /* position: absolute; */
-  font-size: 14px;
-  padding: 0.1rem 0.2rem;
 `
